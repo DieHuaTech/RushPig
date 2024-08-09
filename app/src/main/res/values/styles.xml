@@ -1,0 +1,64 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:fontFamily">@font/wy</item>
+    </style>
+
+    <style name="piece">
+        <item name="android:foreground">@drawable/foreground</item>
+        <item name="android:background">@drawable/background</item>
+        <item name="android:paddingHorizontal">@dimen/game_spacing_gap</item>
+        <item name="android:paddingVertical">@dimen/game_spacing_gap</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">75sp</item>
+        <item name="android:fontFamily">@font/wb</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="select_pass">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/select_content_padding</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:foreground">@drawable/select_pass</item>
+        <item name="android:weightSum">2</item>
+    </style>
+
+    <style name="select_pass_name">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textSize">@dimen/select_content_text</item>
+        <item name="android:layout_marginStart">@dimen/select_content_margin</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="select_pass_step">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/select_content_step</item>
+        <item name="android:layout_marginStart">@dimen/select_content_margin</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="main_btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">50dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:foreground">@drawable/main_btn</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:background">@color/snow</item>
+    </style>
+</resources>

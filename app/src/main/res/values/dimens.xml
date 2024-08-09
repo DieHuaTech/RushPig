@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="game_spacing_zero">0dp</dimen>
+    <dimen name="game_spacing_one">80dp</dimen>
+    <dimen name="game_spacing_two">160dp</dimen>
+    <dimen name="game_spacing_three">240dp</dimen>
+    <dimen name="game_spacing_four">320dp</dimen>
+    <dimen name="game_spacing_five">400dp</dimen>
+    <dimen name="gap">5dp</dimen>
+    <dimen name="game_spacing_gap">8dp</dimen>
+    <dimen name="select_title_text">36sp</dimen>
+    <dimen name="select_title_padding">8dp</dimen>
+    <dimen name="select_content_padding">20dp</dimen>
+    <dimen name="select_content_text">30sp</dimen>
+    <dimen name="select_content_step">24sp</dimen>
+    <dimen name="select_content_margin">8dp</dimen>
+    <dimen name="game_content_text">30sp</dimen>
+    <dimen name="game_content_margin">8dp</dimen>
+</resources>

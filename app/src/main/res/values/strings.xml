@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Rush Pig</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_start_game">Select Level</string>
+    <string name="select_title">Start Level</string>
+    <string name="pass_1">Beginner</string>
+    <string name="pass_2">Easy</string>
+    <string name="pass_3">Intermediate</string>
+    <string name="pass_4">Advanced</string>
+    <string name="pass_5">Expert</string>
+    <string name="pass_6">Master</string>
+    <string name="game_pass_title">Level :</string>
+    <string name="game_step_title">Steps :</string>
+    <string name="game_name_zhangfei">K</string>
+    <string name="game_name_caocao">Pig</string>
+    <string name="game_name_machao">Q</string>
+    <string name="game_name_huangzhong">K</string>
+    <string name="game_name_huanyu">G</string>
+    <string name="game_name_zhaoyun">H</string>
+    <string name="game_name_bing">S</string>
+    <string name="game_area_exit">Exit</string>
+    <string name="select_step_title">Steps : </string>
+    <string name="main_reset_step">Reset</string>
+    <string name="main_game_name">Rush Pig</string>
+    <string name="main_exit">Exit Game</string>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GameArea"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/gap"
+    android:maxWidth="@dimen/game_spacing_four"
+    android:maxHeight="@dimen/game_spacing_five">
+
+
+    <TextView
+        android:id="@+id/Zhangf"
+        style="@style/piece"
+        android:layout_width="@dimen/game_spacing_one"
+        android:layout_height="@dimen/game_spacing_two"
+        android:layout_marginStart="@dimen/game_spacing_zero"
+        android:layout_marginTop="@dimen/game_spacing_zero"
+        android:text="@string/game_name_zhangfei"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Caoc"
+        style="@style/piece"
+        android:layout_width="@dimen/game_spacing_two"
+        android:layout_height="@dimen/game_spacing_two"
+        android:layout_marginStart="@dimen/game_spacing_one"
+        android:layout_marginTop="@dimen/game_spacing_zero"
+        android:text="@string/game_name_caocao"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Mac"
+        style="@style/piece"
+        android:layout_width="@dimen/game_spacing_one"
+        android:layout_height="@dimen/game_spacing_two"
+        android:layout_marginStart="@dimen/game_spacing_three"
+        android:layout_marginTop="@dimen/game_spacing_zero"
+        android:text="@string/game_name_machao"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Huangz"
+        style="@style/piece"
+        android:layout_width="@dimen/game_spacing_one"
+        android:layout_height="@dimen/game_spacing_two"
+        android:layout_marginStart="@dimen/game_spacing_zero"
+        android:layout_marginTop="@dimen/game_spacing_two"
+        android:text="@string/game_name_huangzhong"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Guany"
+        style="@style/piece"
+        android:layout_width="@dimen/game_spacing_two"
+        android:layout_height="@dimen/game_spacing_one"
+        android:layout_marginStart="@dimen/game_spacing_one"
+        android:layout_marginTop="@dimen/game_spacing_two"
+        android:text="@string/game_name_huanyu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Zhaoy"
+        style="@style/piece"
+        android:layout_width="@dimen/game_spacing_one"
+        android:layout_height="@dimen/game_spacing_two"
+        android:layout_marginStart="@dimen/game_spacing_three"
+        android:layout_marginTop="@dimen/game_spacing_two"
+        android:text="@string/game_name_zhaoyun"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Zu1"
+        style="@style/piece"
+        android:layout_width="@dimen/game_spacing_one"
+        android:layout_height="@dimen/game_spacing_one"
+        android:layout_marginStart="@dimen/game_spacing_zero"
+        android:layout_marginTop="@dimen/game_spacing_four"
+        android:text="@string/game_name_bing"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Zu2"
+        style="@style/piece"
+        android:layout_width="@dimen/game_spacing_one"
+        android:layout_height="@dimen/game_spacing_one"
+        android:layout_marginStart="@dimen/game_spacing_one"
+        android:layout_marginTop="@dimen/game_spacing_three"
+        android:text="@string/game_name_bing"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Zu3"
+        style="@style/piece"
+        android:layout_width="@dimen/game_spacing_one"
+        android:layout_height="@dimen/game_spacing_one"
+        android:layout_marginStart="@dimen/game_spacing_two"
+        android:layout_marginTop="@dimen/game_spacing_three"
+        android:text="@string/game_name_bing"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Zu4"
+        style="@style/piece"
+        android:layout_width="@dimen/game_spacing_one"
+        android:layout_height="@dimen/game_spacing_one"
+        android:layout_marginStart="@dimen/game_spacing_three"
+        android:layout_marginTop="@dimen/game_spacing_four"
+        android:text="@string/game_name_bing"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
